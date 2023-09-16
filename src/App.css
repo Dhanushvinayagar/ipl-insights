@@ -36,3 +36,16 @@ button{
 tr{
       cursor: pointer;
 }
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.table-active :hover{
+    background-color: rgb(64, 64, 64);
+}
+
+table{
+  padding: 5%;
+}

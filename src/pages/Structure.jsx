@@ -37,15 +37,15 @@ function Structure() {
            
             // react flow ------->
 
-            
+            const teamName = id.toUpperCase()
             var initialNodes = [
                 {
                 id: '1',
                 data: { label: <div>
-                                    <h3>{id}</h3>
+                                    <img src={`https://scores.iplt20.com/ipl/teamlogos/${teamName}.png`} height={"75px"} width={"75px"}/>
                                 </div> },
-                position: { x: 400, y: -40 },
-                style: { width: 60, height: 70 }
+                position: { x: 395, y: -70 },
+                style: { width: 100, height: 100 }
                 },
                 {
                 id: '2',
@@ -56,31 +56,59 @@ function Structure() {
                         </h6> 
                 </div> },
                 position: { x: 395, y: 80 },
-                style:  { width: 70, height: 85 }
+                style: { width: 100, height: 100 }
                 },
                 {
                 id: '3',
-                data: { label: <div>Batsmen</div> },
+                data: { label: 
+                <div>
+                    <img src={"https://www.iplt20.com/assets/images/teams-batsman-icon.svg"} height={"50px"} width={"50px"}/>
+                    <h6>
+                        Batsman
+                    </h6>
+                </div>  
+                },
                 position: { x: 100, y: 250 },
-                style: { width: 100, height: 50 }
+                style: { width: 100, height: 100 }
                 },
                 {
                 id: '4',
-                data: { label: <div>Bowler</div> },
+                data: { label: 
+                    <div>
+                    <img src={"https://www.iplt20.com/assets/images/teams-bowler-icon.svg"} height={"50px"} width={"50px"}/>
+                    <h6>
+                        Bowler
+                    </h6>
+                </div>
+                },
                 position: { x: 350, y: 250 },
-                style: { width: 100, height: 50 }
+                style: { width: 100, height: 100 }
                 },
                 {
                 id: '5',
-                data: { label: <div>All rounder</div> },
+                data: { label: 
+                    <div>
+                    <img src={"https://www.iplt20.com/assets/images/teams-all-rounder-icon.svg"} height={"50px"} width={"50px"}/>
+                    <h6>
+                        All rounder
+                    </h6>
+                </div>
+                 },
                 position: { x: 600, y: 250 },
-                style: { width: 100, height: 50 }
+                style: { width: 100, height: 100 }
                 },
                 {
                 id: '6',
-                data: { label: <div>Wicket keeper</div> },
+                data: { label: 
+                <div>
+                    <img src={"https://www.iplt20.com/assets/images/teams-wicket-keeper-icon.svg"} height={"50px"} width={"50px"}/>
+                    <h6>
+                        Wicket keeper
+                    </h6>
+                </div>
+                },
                 position: { x: 800, y: 250 },
-                style: { width: 100, height: 50 }
+                style: { width: 100, height: 100 }
                 }
             ];
             
@@ -92,8 +120,8 @@ function Structure() {
                 { id: 'e2-6', source: '2', target: '6'},
             ];
             
-            var val1=-130;
-            const val2=400;
+            var val1=-180;
+            const val2=500;
             for(var i=7;i<7+array[0].length;i++){
                 let obj= {
                     id: String(i),

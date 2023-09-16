@@ -108,9 +108,9 @@ function Home() {
                                                     return(
                                                         <>
                                                         
-                                                            <tr  key={el.TeamID} onClick={()=>handleRoute(el.TeamCode)}>
-                                                                            <td >
-                                                                                <img src={`${el.TeamLogo}`} />
+                                                            <tr className="table-row"  key={el.TeamID} onClick={()=>handleRoute(el.TeamCode)} >
+                                                                            <td className='logo'>
+                                                                                <img src={`${el.TeamLogo}`} width={"50px"} height={"50px"} />
                                                                             </td>
                                                                             <td>{el.TeamCode}</td>
                                                                             <td >{el.Matches}</td>
