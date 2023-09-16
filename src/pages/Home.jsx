@@ -33,12 +33,11 @@ function Home() {
         func()
     }, []);
 
-
     const handleGender = (e) =>{
         setGenderdata(e.value);
     }
 
-    const handleYear = (e) =>{
+    const handleYear = (e) =>{      
         setYeardata(e.value);
     }
 
@@ -80,9 +79,10 @@ function Home() {
       </div>
       <div className="dropdown">
                 {
-                    newdata.length==0 ?
-                    <>
-                    </>
+                    newdata.length==0 ?(
+                        <>
+                        </>
+                    )
                     :
                     (<>
                 <table class="table table-bordered">
