@@ -10,45 +10,65 @@ function Home() {
     const [genderData,setGenderdata] = useState("")
     const [yearData,setYeardata] = useState(0)
 
+    const [apiCall,setapiCall] = useState(true)
+
     const gender = [
         { value: 'men', label: 'Male' },
         { value: 'women', label: 'Female' },
-      ]
-    var year = []
-    const yearNum =  new Date().getFullYear();
-    for(var i=2020;i<=yearNum;i++){
-        year.push({
-            value:i,
-            label:i
-        });
-    }
+    ]
+    var [year,setYear] = useState([])
+    
 
     useEffect(() => {
-            const func = async()=>{
+        const func = async(apiCall)=>{
+            if(apiCall){
                 const response = await axios.get("https://www.mockachino.com/5db99bd2-28c5-46/ipl/table")
                 const ipl = response.data
                 setData(ipl.points);
-
+                console.log("api called");
+                setapiCall(false)
             }
-        func()
-    }, []);
+            
+        }
+        func(apiCall)
+        console.log("api call",apiCall);
+        console.log(yearData);
+
+    }, [genderData,yearData,year,newdata]);
 
     const handleGender = (e) =>{
         setGenderdata(e.value);
+
+        const s = new Set()
+        data.filter(el=>{
+                if(el.Gender == e.value){
+                    s.add(el.IPLYear);
+                }
+            }
+        )
+
+        const yearSet =  [...s].sort()
+        let arrayYear = []
+        for(var i=0;i<yearSet.length;i++){
+            arrayYear.push({
+                    value:yearSet[i],
+                    label:yearSet[i]
+                });
+        }
+        setYear(arrayYear);
+
     }
 
-    const handleYear = (e) =>{      
+    const handleYear = (e) =>{    
         setYeardata(e.value);
-    }
-
-    const handleSubmit = () =>{
-        console.log(genderData,yearData);
         const newarr= data.filter((element)=>{
             return element.IPLYear === yearData && element.Gender === genderData;
         })
         setNewData(newarr)
-        console.log("new data",newdata);
+        // console.log("new data",newdata);
     }
+
+
     
     const navigate=useNavigate();
 
@@ -56,6 +76,7 @@ function Home() {
         id=id.toLowerCase();
         navigate(`/${id}`)
     }
+
 
   return (
     <div>
@@ -65,17 +86,16 @@ function Home() {
            <p className='font'>
             Gender:
             </p> 
-            <Select options={gender} className='options' onChange={(e)=>handleGender(e)}/> 
+            <Select options={gender} className='options' onChange={handleGender}/> 
         </div>
         <div className='flex select'>
             <p className='font'>
             Year:
             </p>
-            <Select options={year} className='options' onChange={(e)=>handleYear(e)}/> 
+            <Select options={year} className='options' onChange={handleYear}/> 
         </div>
-        <div>
-                <button onClick={handleSubmit}>View details</button>
-        </div>
+        
+
       </div>
       <div className="dropdown">
                 {
@@ -85,7 +105,7 @@ function Home() {
                     )
                     :
                     (<>
-                <table class="table table-bordered">
+                <table className="table table-bordered">
                      <thead>
                                 <tr>
                                         <th >Logo</th>
