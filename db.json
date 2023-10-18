@@ -1,0 +1,2460 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "table": {
+    "points": [
+        {
+            "IPLYear": 2022,
+            "Gender": "men",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "60",
+            "TeamID": "35",
+            "TeamCode": "GT",
+            "TeamName": "Gujarat Titans",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/GT.png?v=1",
+            "IsQualified": "1",
+            "Matches": "14",
+            "Wins": "10",
+            "Loss": "4",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "20",
+            "Draw": "0",
+            "ForTeams": "2339/278.1",
+            "AgainstTeam": "2216/273.5",
+            "NetRunRate": "0.316",
+            "Quotient": "1.180",
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "L,L,W,W,L"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "men",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "60",
+            "TeamID": "18",
+            "TeamCode": "RR",
+            "TeamName": "Rajasthan Royals",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/RR.png",
+            "Matches": "14",
+            "Wins": "9",
+            "Loss": "5",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "18",
+            "Draw": "0",
+            "ForTeams": "2464/279.2",
+            "AgainstTeam": "2351/275.5",
+            "NetRunRate": "0.298",
+            "Quotient": "1.193",
+            "IsQualified": "1",
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "L,W,L,W,W"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "men",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "60",
+            "TeamID": "77",
+            "TeamCode": "LSG",
+            "TeamName": "Lucknow Super Giants",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/LSG.png",
+            "Matches": "14",
+            "Wins": "9",
+            "Loss": "5",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "18",
+            "Draw": "0",
+            "ForTeams": "2355/279.1",
+            "AgainstTeam": "2289/279.4",
+            "NetRunRate": "0.251",
+            "Quotient": "1.189",
+            "IsQualified": "1",
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "W,W,L,L,W"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "men",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "60",
+            "TeamID": "19",
+            "TeamCode": "RCB",
+            "TeamName": "Royal Challengers Bangalore",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/RCB.png",
+            "Matches": "14",
+            "Wins": "8",
+            "Loss": "6",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "16",
+            "Draw": "0",
+            "ForTeams": "2268/275.4",
+            "AgainstTeam": "2260/266.3",
+            "NetRunRate": "-0.253",
+            "Quotient": "1.026",
+            "IsQualified": "1",
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "L,W,W,L,W"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "men",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "60",
+            "TeamID": "14",
+            "TeamCode": "DC",
+            "TeamName": "Delhi Capitals",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/DC.png",
+            "Matches": "14",
+            "Wins": "7",
+            "Loss": "7",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "14",
+            "Draw": "0",
+            "ForTeams": "2341/266.0",
+            "AgainstTeam": "2397/278.5",
+            "NetRunRate": "0.204",
+            "Quotient": "1.061",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "W,L,W,W,L"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "men",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "60",
+            "TeamID": "15",
+            "TeamCode": "PBKS",
+            "TeamName": "Punjab Kings",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/PBKS.png",
+            "Matches": "14",
+            "Wins": "7",
+            "Loss": "7",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "14",
+            "Draw": "0",
+            "ForTeams": "2343/270.1",
+            "AgainstTeam": "2252/263.3",
+            "NetRunRate": "0.126",
+            "Quotient": "0.872",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "W,L,W,L,W"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "men",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "60",
+            "TeamID": "16",
+            "TeamCode": "KKR",
+            "TeamName": "Kolkata Knight Riders",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/KKR.png",
+            "Matches": "14",
+            "Wins": "6",
+            "Loss": "8",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "12",
+            "Draw": "0",
+            "ForTeams": "2223/268.1",
+            "AgainstTeam": "2249/276.1",
+            "NetRunRate": "0.146",
+            "Quotient": "0.798",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "W,L,W,W,L"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "men",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "60",
+            "TeamID": "20",
+            "TeamCode": "SRH",
+            "TeamName": "Sunrisers Hyderabad",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/SRH.png",
+            "Matches": "14",
+            "Wins": "6",
+            "Loss": "8",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "12",
+            "Draw": "0",
+            "ForTeams": "2197/261.3",
+            "AgainstTeam": "2416/275.1",
+            "NetRunRate": "-0.379",
+            "Quotient": "0.989",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "L,L,L,W,L"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "men",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "60",
+            "TeamID": "13",
+            "TeamCode": "CSK",
+            "TeamName": "Chennai Super Kings",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/CSK.png",
+            "Matches": "14",
+            "Wins": "4",
+            "Loss": "10",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "8",
+            "Draw": "0",
+            "ForTeams": "2288/280.0",
+            "AgainstTeam": "2254/269.1",
+            "NetRunRate": "-0.203",
+            "Quotient": "0.945",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "L,W,L,L,L"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "men",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "60",
+            "TeamID": "17",
+            "TeamCode": "MI",
+            "TeamName": "Mumbai Indians",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/MI.png",
+            "Matches": "14",
+            "Wins": "4",
+            "Loss": "10",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "8",
+            "Draw": "0",
+            "ForTeams": "2217/273.2",
+            "AgainstTeam": "2351/272.5",
+            "NetRunRate": "-0.506",
+            "Quotient": "0.872",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "W,L,W,L,W"
+        },
+        {
+            "IPLYear": 2020,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2020",
+            "TeamID": "",
+            "TeamCode": "MI",
+            "TeamName": "Mumbai Indians",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/MI.png",
+            "IsQualified": "1",
+            "Matches": 14,
+            "Wins": 9,
+            "Loss": 5,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 18,
+            "Draw": 0,
+            "ForTeams": "2378/262.2",
+            "AgainstTeam": "2187/274.5",
+            "NetRunRate": "1.107",
+            "Quotient": 0,
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "L,W,W,L,W"
+        },
+        {
+            "IPLYear": 2020,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2020",
+            "TeamID": "",
+            "TeamCode": "DC",
+            "TeamName": "Delhi Capitals",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/DC.png",
+            "Matches": 14,
+            "Wins": 8,
+            "Loss": 6,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 16,
+            "Draw": 0,
+            "ForTeams": "2289/278.5",
+            "AgainstTeam": "2271/273",
+            "NetRunRate": "-0.109",
+            "Quotient": 0,
+            "IsQualified": "1",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "W,L,L,L,L"
+        },
+        {
+            "IPLYear": 2020,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2020",
+            "TeamID": "",
+            "TeamCode": "SRH",
+            "TeamName": "Sunrisers Hyderabad",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/SRH.png",
+            "Matches": 14,
+            "Wins": 7,
+            "Loss": 7,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 14,
+            "Draw": 0,
+            "ForTeams": "2225/269.3",
+            "AgainstTeam": "2125/277.5",
+            "NetRunRate": "0.608",
+            "Quotient": 0,
+            "IsQualified": "1",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "W,W,W,L,W"
+        },
+        {
+            "IPLYear": 2020,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2020",
+            "TeamID": "",
+            "TeamCode": "RCB",
+            "TeamName": "Royal Challengers Bangalore",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/RCB.png",
+            "Matches": 14,
+            "Wins": 7,
+            "Loss": 7,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 14,
+            "Draw": 0,
+            "ForTeams": "2147/272.2",
+            "AgainstTeam": "2183/271",
+            "NetRunRate": "-0.172",
+            "Quotient": 0,
+            "IsQualified": "1",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "L,L,L,L,W"
+        },
+        {
+            "IPLYear": 2020,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2020",
+            "TeamID": "",
+            "TeamCode": "KKR",
+            "TeamName": "Kolkata Knight Riders",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/KKR.png",
+            "Matches": 14,
+            "Wins": 7,
+            "Loss": 7,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 14,
+            "Draw": 0,
+            "ForTeams": "2219/278",
+            "AgainstTeam": "2206/269.1",
+            "NetRunRate": "-0.214",
+            "Quotient": 0,
+            "IsQualified": "",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "W,L,L,W,L"
+        },
+        {
+            "IPLYear": 2020,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2020",
+            "TeamID": "",
+            "TeamCode": "PBKS",
+            "TeamName": "Punjab Kings",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/PBKS.png",
+            "Matches": 14,
+            "Wins": 6,
+            "Loss": 8,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 12,
+            "Draw": 0,
+            "ForTeams": "2335/277.5",
+            "AgainstTeam": "2343/273.3",
+            "NetRunRate": "-0.162",
+            "Quotient": 0,
+            "IsQualified": "",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "L,L,W,W,W"
+        },
+        {
+            "IPLYear": 2020,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2020",
+            "TeamID": "",
+            "TeamCode": "CSK",
+            "TeamName": "Chennai Super Kings",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/CSK.png",
+            "Matches": 14,
+            "Wins": 6,
+            "Loss": 8,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 12,
+            "Draw": 0,
+            "ForTeams": "2191/274.3",
+            "AgainstTeam": "2275/269.4",
+            "NetRunRate": "-0.455",
+            "Quotient": 0,
+            "IsQualified": "",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "W,W,W,L,L"
+        },
+        {
+            "IPLYear": 2020,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2020",
+            "TeamID": "",
+            "TeamCode": "RR",
+            "TeamName": "Rajasthan Royals",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/RR.png",
+            "Matches": 14,
+            "Wins": 6,
+            "Loss": 8,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 12,
+            "Draw": 0,
+            "ForTeams": "2288/272.4",
+            "AgainstTeam": "2482/277",
+            "NetRunRate": "-0.569",
+            "Quotient": 0,
+            "IsQualified": "",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "L,W,W,L,W"
+        },
+        {
+            "IPLYear": 2023,
+            "Gender": "men",
+            "Category": null,
+            "CompetitionID": "107",
+            "TeamID": "35",
+            "TeamCode": "GT",
+            "TeamName": "Gujarat Titans",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/GT.png?v=1",
+            "IsQualified": "1",
+            "Matches": "14",
+            "Wins": "10",
+            "Loss": "4",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "20",
+            "Draw": "0",
+            "ForTeams": "2450/268.1",
+            "AgainstTeam": "2326/279.2",
+            "NetRunRate": "0.809",
+            "Quotient": "1.587",
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "W,W,L,W,W"
+        },
+        {
+            "IPLYear": 2023,
+            "Gender": "men",
+            "Category": null,
+            "CompetitionID": "107",
+            "TeamID": "13",
+            "TeamCode": "CSK",
+            "TeamName": "Chennai Super Kings",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/CSK.png",
+            "Matches": "14",
+            "Wins": "8",
+            "Loss": "5",
+            "Tied": "0",
+            "NoResult": "1",
+            "Points": "17",
+            "Draw": "0",
+            "ForTeams": "2369/254.3",
+            "AgainstTeam": "2232/257.5",
+            "NetRunRate": "0.652",
+            "Quotient": "1.441",
+            "IsQualified": "1",
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "N,W,W,L,W"
+        },
+        {
+            "IPLYear": 2023,
+            "Gender": "men",
+            "Category": null,
+            "CompetitionID": "107",
+            "TeamID": "77",
+            "TeamCode": "LSG",
+            "TeamName": "Lucknow Super Giants",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/LSG.png",
+            "Matches": "14",
+            "Wins": "8",
+            "Loss": "5",
+            "Tied": "0",
+            "NoResult": "1",
+            "Points": "17",
+            "Draw": "0",
+            "ForTeams": "2253/255.2",
+            "AgainstTeam": "2216/259.3",
+            "NetRunRate": "0.284",
+            "Quotient": "1.016",
+            "IsQualified": "1",
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "N,L,W,W,W"
+        },
+        {
+            "IPLYear": 2023,
+            "Gender": "men",
+            "Category": null,
+            "CompetitionID": "107",
+            "TeamID": "17",
+            "TeamCode": "MI",
+            "TeamName": "Mumbai Indians",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/MI.png",
+            "Matches": "14",
+            "Wins": "8",
+            "Loss": "6",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "16",
+            "Draw": "0",
+            "ForTeams": "2592/270.3",
+            "AgainstTeam": "2620/272.1",
+            "NetRunRate": "-0.044",
+            "Quotient": "1.054",
+            "IsQualified": "1",
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "L,W,W,L,W"
+        },
+        {
+            "IPLYear": 2023,
+            "Gender": "men",
+            "Category": null,
+            "CompetitionID": "107",
+            "TeamID": "18",
+            "TeamCode": "RR",
+            "TeamName": "Rajasthan Royals",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/RR.png",
+            "Matches": "14",
+            "Wins": "7",
+            "Loss": "7",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "14",
+            "Draw": "0",
+            "ForTeams": "2419/272.1",
+            "AgainstTeam": "2389/273.2",
+            "NetRunRate": "0.148",
+            "Quotient": "1.024",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "L,L,W,L,W"
+        },
+        {
+            "IPLYear": 2023,
+            "Gender": "men",
+            "Category": null,
+            "CompetitionID": "107",
+            "TeamID": "19",
+            "TeamCode": "RCB",
+            "TeamName": "Royal Challengers Bangalore",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/RCB.png",
+            "Matches": "14",
+            "Wins": "7",
+            "Loss": "7",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "14",
+            "Draw": "0",
+            "ForTeams": "2502/275.4",
+            "AgainstTeam": "2435/272.2",
+            "NetRunRate": "0.135",
+            "Quotient": "1.220",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "L,L,W,W,L"
+        },
+        {
+            "IPLYear": 2023,
+            "Gender": "men",
+            "Category": null,
+            "CompetitionID": "107",
+            "TeamID": "16",
+            "TeamCode": "KKR",
+            "TeamName": "Kolkata Knight Riders",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/KKR.png",
+            "Matches": "14",
+            "Wins": "6",
+            "Loss": "8",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "12",
+            "Draw": "0",
+            "ForTeams": "2463/274.3",
+            "AgainstTeam": "2432/264.0",
+            "NetRunRate": "-0.239",
+            "Quotient": "0.824",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "W,W,L,W,L"
+        },
+        {
+            "IPLYear": 2023,
+            "Gender": "men",
+            "Category": null,
+            "CompetitionID": "107",
+            "TeamID": "15",
+            "TeamCode": "PBKS",
+            "TeamName": "Punjab Kings",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/PBKS.png",
+            "Matches": "14",
+            "Wins": "6",
+            "Loss": "8",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "12",
+            "Draw": "0",
+            "ForTeams": "2518/275.3",
+            "AgainstTeam": "2564/271.3",
+            "NetRunRate": "-0.304",
+            "Quotient": "0.721",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "L,L,W,L,L"
+        },
+        {
+            "IPLYear": 2023,
+            "Gender": "men",
+            "Category": null,
+            "CompetitionID": "107",
+            "TeamID": "14",
+            "TeamCode": "DC",
+            "TeamName": "Delhi Capitals",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/DC.png",
+            "Matches": "14",
+            "Wins": "5",
+            "Loss": "9",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "10",
+            "Draw": "0",
+            "ForTeams": "2182/276.0",
+            "AgainstTeam": "2424/278.1",
+            "NetRunRate": "-0.808",
+            "Quotient": "0.709",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "W,L,L,W,L"
+        },
+        {
+            "IPLYear": 2023,
+            "Gender": "men",
+            "Category": null,
+            "CompetitionID": "107",
+            "TeamID": "20",
+            "TeamCode": "SRH",
+            "TeamName": "Sunrisers Hyderabad",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/SRH.png",
+            "Matches": "14",
+            "Wins": "4",
+            "Loss": "10",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "8",
+            "Draw": "0",
+            "ForTeams": "2376/277.1",
+            "AgainstTeam": "2486/271.2",
+            "NetRunRate": "-0.590",
+            "Quotient": "0.807",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "W,L,L,L,L"
+        },
+        {
+            "IPLYear": 2021,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2021",
+            "TeamID": "",
+            "TeamCode": "DC",
+            "TeamName": "Delhi Capitals",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/DC.png",
+            "Matches": 14,
+            "Wins": 10,
+            "Loss": 4,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 20,
+            "Draw": 0,
+            "ForTeams": "2180/267",
+            "AgainstTeam": "2136/278",
+            "NetRunRate": "0.481",
+            "Quotient": 0,
+            "IsQualified": "1",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "L,W,W,L,W"
+        },
+        {
+            "IPLYear": 2021,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2021",
+            "TeamID": "",
+            "TeamCode": "CSK",
+            "TeamName": "Chennai Super Kings",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/CSK.png",
+            "Matches": 14,
+            "Wins": 9,
+            "Loss": 5,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 18,
+            "Draw": 0,
+            "ForTeams": "2368/272",
+            "AgainstTeam": "2218/268.5",
+            "NetRunRate": "0.455",
+            "Quotient": 0,
+            "IsQualified": "1",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "L,L,L,W,W"
+        },
+        {
+            "IPLYear": 2021,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2021",
+            "TeamID": "",
+            "TeamCode": "RCB",
+            "TeamName": "Royal Challengers Bangalore",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/RCB.png",
+            "Matches": 14,
+            "Wins": 9,
+            "Loss": 5,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 18,
+            "Draw": 0,
+            "ForTeams": "2165/273.4",
+            "AgainstTeam": "2159/268.1",
+            "NetRunRate": "-0.14",
+            "Quotient": 0,
+            "IsQualified": "1",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "W,L,W,W,W"
+        },
+        {
+            "IPLYear": 2021,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2021",
+            "TeamID": "",
+            "TeamCode": "KKR",
+            "TeamName": "Kolkata Knight Riders",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/KKR.png",
+            "Matches": 14,
+            "Wins": 7,
+            "Loss": 7,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 14,
+            "Draw": 0,
+            "ForTeams": "2119/259.5",
+            "AgainstTeam": "2080/274.5",
+            "NetRunRate": "0.587",
+            "Quotient": 0,
+            "IsQualified": "1",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "W,W,L,W,L"
+        },
+        {
+            "IPLYear": 2021,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2021",
+            "TeamID": "",
+            "TeamCode": "MI",
+            "TeamName": "Mumbai Indians",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/MI.png",
+            "Matches": 14,
+            "Wins": 7,
+            "Loss": 7,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 14,
+            "Draw": 0,
+            "ForTeams": "2117/265.5",
+            "AgainstTeam": "2128/271.1",
+            "NetRunRate": "0.116",
+            "Quotient": 0,
+            "IsQualified": "",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "W,W,L,W,L"
+        },
+        {
+            "IPLYear": 2021,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2021",
+            "TeamID": "",
+            "TeamCode": "PBKS",
+            "TeamName": "Punjab Kings",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/PBKS.png",
+            "Matches": 14,
+            "Wins": 6,
+            "Loss": 8,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 12,
+            "Draw": 0,
+            "ForTeams": "2150/270.1",
+            "AgainstTeam": "2117/266",
+            "NetRunRate": "-0.001",
+            "Quotient": 0,
+            "IsQualified": "",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "W,L,W,L,W"
+        },
+        {
+            "IPLYear": 2021,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2021",
+            "TeamID": "",
+            "TeamCode": "RR",
+            "TeamName": "Rajasthan Royals",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/RR.png",
+            "Matches": 14,
+            "Wins": 5,
+            "Loss": 9,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 10,
+            "Draw": 0,
+            "ForTeams": "2196/276",
+            "AgainstTeam": "2318/259",
+            "NetRunRate": "-0.993",
+            "Quotient": 0,
+            "IsQualified": "",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "L,L,W,L,L"
+        },
+        {
+            "IPLYear": 2021,
+            "Gender": "men",
+            "Category": "IPL",
+            "CompetitionID": "2021",
+            "TeamID": "",
+            "TeamCode": "SRH",
+            "TeamName": "Sunrisers Hyderabad",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/SRH.png",
+            "Matches": 14,
+            "Wins": 3,
+            "Loss": 11,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": 6,
+            "Draw": 0,
+            "ForTeams": "2077/277.1",
+            "AgainstTeam": "2216/275.4",
+            "NetRunRate": "-0.545",
+            "Quotient": 0,
+            "IsQualified": "",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "L,W,L,L,W"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "women",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "62",
+            "TeamID": "81",
+            "TeamCode": "SNO",
+            "TeamName": "Supernovas",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/SNRoundbig.png",
+            "IsQualified": "1",
+            "Matches": "2",
+            "Wins": "1",
+            "Loss": "1",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "2",
+            "Draw": "0",
+            "ForTeams": "313/40.0",
+            "AgainstTeam": "265/38.2",
+            "NetRunRate": "0.912",
+            "Quotient": "0.944",
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "W,L"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "women",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "62",
+            "TeamID": "82",
+            "TeamCode": "VEL",
+            "TeamName": "Velocity",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/VelocityRB.png",
+            "Matches": "2",
+            "Wins": "1",
+            "Loss": "1",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "2",
+            "Draw": "0",
+            "ForTeams": "325/38.2",
+            "AgainstTeam": "340/40.0",
+            "NetRunRate": "-0.022",
+            "Quotient": "0.796",
+            "IsQualified": "1",
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "W,L"
+        },
+        {
+            "IPLYear": 2022,
+            "Gender": "women",
+            "StandingFlag": "NET",
+            "Category": null,
+            "CompetitionID": "62",
+            "TeamID": "80",
+            "TeamCode": "TBL",
+            "TeamName": "Trailblazers",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/TBRoundbig.png",
+            "Matches": "2",
+            "Wins": "1",
+            "Loss": "1",
+            "Tied": "0",
+            "NoResult": "0",
+            "Points": "2",
+            "Draw": "0",
+            "ForTeams": "304/40.0",
+            "AgainstTeam": "337/40.0",
+            "NetRunRate": "-0.825",
+            "Quotient": "1.224",
+            "IsQualified": null,
+            "LeadBy": "0",
+            "Deficit": "0",
+            "Performance": "L,W"
+        },
+        {
+            "IPLYear": 2020,
+            "Gender": "women",
+            "StandingFlag": "",
+            "Category": "IPL",
+            "CompetitionID": 10016,
+            "TeamID": "1",
+            "TeamCode": "TBL",
+            "TeamName": "Trailblazers",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/TBRoundbig.png",
+            "IsQualified": null,
+            "Matches": 2,
+            "Wins": 1,
+            "Loss": 1,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": "2",
+            "Draw": 0,
+            "ForTeams": "193/27.5",
+            "AgainstTeam": "193/40",
+            "NetRunRate": "+2.109",
+            "Quotient": "",
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "W,L"
+        },
+        {
+            "IPLYear": 2020,
+            "Gender": "women",
+            "StandingFlag": "",
+            "Category": "IPL",
+            "CompetitionID": 10016,
+            "TeamID": "2",
+            "TeamCode": "SNO",
+            "TeamName": "Supernovas",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/SNRoundbig.png",
+            "Matches": 2,
+            "Wins": 1,
+            "Loss": 1,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": "2",
+            "Draw": 0,
+            "ForTeams": "272/40",
+            "AgainstTeam": "273/39.5",
+            "NetRunRate": "-0.054",
+            "Quotient": "",
+            "IsQualified": null,
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "L,W"
+        },
+        {
+            "IPLYear": 2020,
+            "Gender": "women",
+            "StandingFlag": "",
+            "Category": "IPL",
+            "CompetitionID": 10016,
+            "TeamID": "3",
+            "TeamCode": "VEL",
+            "TeamName": "Velocity",
+            "TeamLogo": "https://scores.iplt20.com/ipl/teamlogos/VelocityRB.png",
+            "Matches": 2,
+            "Wins": 1,
+            "Loss": 1,
+            "Tied": 0,
+            "NoResult": 0,
+            "Points": "2",
+            "Draw": 0,
+            "ForTeams": "176/39.5",
+            "AgainstTeam": "175/27.5",
+            "NetRunRate": "-1.869",
+            "Quotient": "",
+            "IsQualified": null,
+            "LeadBy": 0,
+            "Deficit": 0,
+            "Performance": "W,L"
+        }
+    ]
+  },
+  "players":{
+    "players": [
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Shikhar Dhawan",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/41.png",
+            "team": "dc",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Prithvi Shaw",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/3764.png",
+            "team": "dc",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Steve Smith",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/271.png",
+            "team": "dc",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Ajinkya Rahane",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/135.png",
+            "team": "dc",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Kagiso Rabada",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1664.png",
+            "team": "dc",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Ravichandran Ashwin",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/8.png",
+            "team": "dc",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Amit Mishra",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/30.png",
+            "team": "dc",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Marcus Stoinis",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/964.png",
+            "team": "dc",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Chris Woakes",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/967.png",
+            "team": "dc",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Lalit Yadav",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/6870.png",
+            "team": "dc",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "Captain",
+                "Wicket-keeper"
+            ],
+            "name": "Rishabh Pant",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/2972.png",
+            "team": "dc",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "Captain",
+                "Wicket-keeper"
+            ],
+            "name": "MS Dhoni",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Suresh Raina",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/14.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Faf du Plessis",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/24.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Ruturaj Gaikwad",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/5443.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Ambati Rayudu",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/100.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Robin Uthappa",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/127.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Deepak Chahar",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/140.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Shardul Thakur",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1745.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Lungi Ngidi",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/3746.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Josh Hazlewood",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/857.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Imran Tahir",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/898.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Karn Sharma",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1118.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "R Sai Kishore",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/7123.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Ravindra Jadeja",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/9.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Sam Curran",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/2939.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Dwayne Bravo",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/25.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Moeen Ali",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1735.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "Wicket-keeper"
+            ],
+            "name": "N Jagadeesan",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/4942.png",
+            "team": "csk",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "Captain",
+                "Wicket-keeper",
+                "batsman"
+            ],
+            "name": "Sanju Samson",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/258.png",
+            "team": "rr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "David Miller",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/187.png",
+            "team": "rr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Jos Buttler",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/509.png",
+            "team": "rr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Manan Vohra",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1085.png",
+            "team": "rr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Chris Morris",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/836.png",
+            "team": "rr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Jaydev Unadkat",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/86.png",
+            "team": "rr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Mustafizur Rahman",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1594.png",
+            "team": "rr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Shreyas Gopal",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1748.png",
+            "team": "rr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Riyan Parag",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/4445.png",
+            "team": "rr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Ben Stokes",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1154.png",
+            "team": "rr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Rahul Tewatia",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1749.png",
+            "team": "rr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "Captian",
+                "batsman",
+                "Wicket-keeper"
+            ],
+            "name": "KL Rahul",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/19.png",
+            "team": "lsg",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Nicholas Pooran",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/136.png",
+            "team": "lsg",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Manan Vohra",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/185.png",
+            "team": "lsg",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Quinton de Kock",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/170.png",
+            "team": "lsg",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Avesh Khan",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/109.png",
+            "team": "lsg",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Mark Wood",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/315.png",
+            "team": "lsg",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Ravi Bishnoi",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/520.png",
+            "team": "lsg",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Amit Mishra",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/107.png",
+            "team": "lsg",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Deepak Hooda",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/215.png",
+            "team": "lsg",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Marcus Stoinis",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/23.png",
+            "team": "lsg",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Krunal Pandya",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/17.png",
+            "team": "lsg",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "Captian",
+                "batsman",
+                "Wicket-keeper"
+            ],
+            "name": "KL Rahul",
+            "image": "images/organization/kl_rahul.jpg",
+            "team": "pbks",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Chris Gayle",
+            "image": "images/organization/chris_gayle.jpg",
+            "team": "pbks",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Mayank Agarwal",
+            "image": "images/organization/mayank_agarwal.jpg",
+            "team": "pbks",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Dawid Malan",
+            "image": "images/organization/dawid_malan.jpg",
+            "team": "pbks",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Mohammed Shami",
+            "image": "images/organization/mohammed_shami.jpg",
+            "team": "pbks",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Chris Jordan",
+            "image": "images/organization/chris_jordan.jpg",
+            "team": "pbks",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Ravi Bishnoi",
+            "image": "images/organization/ravi_bishnoi.jpg",
+            "team": "pbks",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Jhye Richardson",
+            "image": "images/organization/jhye_richardson.jpg",
+            "team": "pbks",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Shahrukh Khan",
+            "image": "images/organization/shahrukh_khan.jpg",
+            "team": "pbks",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Moises Henriques",
+            "image": "images/organization/moises_henriques.jpg",
+            "team": "pbks",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Deepak Hooda",
+            "image": "images/organization/deepak_hooda.jpg",
+            "team": "pbks",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "Captian",
+                "batsman"
+            ],
+            "name": "Deepti Sharma",
+            "image": "https://scores.iplt20.com/ipl/playerimages/395-small.png?v=2",
+            "team": "vel",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Shafali Verma",
+            "image": "https://scores.iplt20.com/ipl/playerimages/398-small.png?v=2",
+            "team": "vel",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "K P Navgire",
+            "image": "https://scores.iplt20.com/ipl/playerimages/1040-small.png?v=2",
+            "team": "vel",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Natthakan Chantham",
+            "image": "https://scores.iplt20.com/ipl/playerimages/1039-small.png?v=2",
+            "team": "vel",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Laura Wolvaardt",
+            "image": "https://scores.iplt20.com/ipl/playerimages/436-small.png?v=2",
+            "team": "vel",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Sneh Rana",
+            "image": "https://scores.iplt20.com/ipl/playerimages/887-small.png?v=2",
+            "team": "vel",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Radha Yadav",
+            "image": "https://scores.iplt20.com/ipl/playerimages/400-small.png?v=2",
+            "team": "vel",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Kathryn Laura Cross",
+            "image": "https://scores.iplt20.com/ipl/playerimages/1035-small.png?v=2",
+            "team": "vel",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Simran Bahadur",
+            "image": "https://scores.iplt20.com/ipl/playerimages/882-small.png?v=2",
+            "team": "vel",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Ayabonga Khaka",
+            "image": "https://scores.iplt20.com/ipl/playerimages/442-small.png?v=2",
+            "team": "vel",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "Wicket-keeper"
+            ],
+            "name": "Yastika Bhatia",
+            "image": "https://scores.iplt20.com/ipl/playerimages/883-small.png?v=2",
+            "team": "vel",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "batsman",
+                "Captain"
+            ],
+            "name": "Rohit Sharma",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/107.png",
+            "team": "mi",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman",
+                "Wicket-keeper"
+            ],
+            "name": "Quinton de Kock",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/834.png",
+            "team": "mi",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Suryakumar Yadav",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/108.png",
+            "team": "mi",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Ishan Kishan",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/2975.png",
+            "team": "mi",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Jasprit Bumrah",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1124.png",
+            "team": "mi",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Trent Boult",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/969.png",
+            "team": "mi",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": " Rahul Chahar",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/3763.png",
+            "team": "mi",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": " Nathan Coulter-Nile",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/840.png",
+            "team": "mi",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Kieron Pollard",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/210.png",
+            "team": "mi",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Hardik Pandya",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/2740.png",
+            "team": "mi",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Shubman Gill",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/3761.png",
+            "team": "kkr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Nitish Rana",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/2738.png",
+            "team": "kkr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Rahul Tripathi",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/3838.png",
+            "team": "kkr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman",
+                "Wicket-keeper",
+                "Captain"
+            ],
+            "name": "Dinesh Karthik",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/102.png",
+            "team": "kkr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Pat Cummins",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/488.png",
+            "team": "kkr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Varun Chakravarthy",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/5432.png",
+            "team": "kkr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Lockie Ferguson",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/3729.png",
+            "team": "kkr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Prasidh Krishna",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/5105.png",
+            "team": "kkr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Andre Russell",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/177.png",
+            "team": "kkr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Sunil Narine",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/203.png",
+            "team": "kkr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Shakib Al Hasan",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/201.png",
+            "team": "kkr",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman",
+                "Captain"
+            ],
+            "name": "Virat Kohli",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/164.png",
+            "team": "rcb",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Devdutt Padikkal",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/5430.png",
+            "team": "rcb",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman",
+                "Wicket-keeper"
+            ],
+            "name": "AB de Villiers",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/233.png",
+            "team": "rcb",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Glenn Maxwell",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/282.png",
+            "team": "rcb",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Mohammed Siraj",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/3480.png",
+            "team": "rcb",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Yuzvendra Chahal",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/111.png",
+            "team": "rcb",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Navdeep Saini",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/3824.png",
+            "team": "rcb",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Kane Richardson",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/798.png",
+            "team": "rcb",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Washington Sundar",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/2973.png",
+            "team": "rcb",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Kyle Jamieson",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1616.png",
+            "team": "rcb",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Dan Christian",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/181.png",
+            "team": "rcb",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "David Miller",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/128.png",
+            "team": "gt",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Shubman Gill",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/62.png",
+            "team": "gt",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman",
+                "Wicket-keeper"
+            ],
+            "name": "Mathew Wade",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/549.png",
+            "team": "gt",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "K.S.Bharat",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/365.png",
+            "team": "gt",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Mohammad Shami",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/47.png",
+            "team": "gt",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Rashid Khan",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/218.png",
+            "team": "gt",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Jayant Yadav",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/165.png",
+            "team": "gt",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Noor Ahmed",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/975.png",
+            "team": "gt",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder",
+                "Captain"
+            ],
+            "name": "Hardik Pandya",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/54.png",
+            "team": "gt",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Vijay Shankar",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/61.png",
+            "team": "gt",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Odean Smith",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/863.png",
+            "team": "gt",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman",
+                "Captain"
+            ],
+            "name": "Kane Williamson",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/440.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "David Warner",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/170.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Manish Pandey",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/123.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Priyam Garg",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/3775.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Bhuvneshwar Kumar",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/116.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Rashid Khan",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/2885.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Sandeep Sharma",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1112.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "T Natarajan",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/3831.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Jason Holder",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1075.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Mohammad Nabi",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/618.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Vijay Shankar",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/1083.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "Wicket-keeper"
+            ],
+            "name": "Jonny Bairstow",
+            "image": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/playerheadshot/ipl/210/506.png",
+            "team": "srh",
+            "gender": "male"
+        },
+        {
+            "role": [
+                "batsman",
+                "Captain"
+            ],
+            "name": "Smriti Mandhana",
+            "image": "https://scores.iplt20.com/ipl/playerimages/401-small.png?v=2",
+            "team": "tbl",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Hayley Matthews",
+            "image": "https://scores.iplt20.com/ipl/playerimages/918-small.png?v=2",
+            "team": "tbl",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Jemimah Rodrigues",
+            "image": "https://scores.iplt20.com/ipl/playerimages/388-small.png?v=2",
+            "team": "tbl",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Sharmin Akhter",
+            "image": "https://scores.iplt20.com/ipl/playerimages/963-small.png?v=2",
+            "team": "tbl",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Sophia Dunkley",
+            "image": "https://scores.iplt20.com/ipl/playerimages/944-small.png?v=2",
+            "team": "tbl",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Salma Khatun",
+            "image": "https://scores.iplt20.com/ipl/playerimages/961-small.png?v=2",
+            "team": "tbl",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Arundhati Reddy",
+            "image": "https://scores.iplt20.com/ipl/playerimages/391-small.png?v=2",
+            "team": "tbl",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Poonam Yadav",
+            "image": "https://scores.iplt20.com/ipl/playerimages/394-small.png?v=2",
+            "team": "tbl",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Renuka Singh",
+            "image": "https://scores.iplt20.com/ipl/playerimages/888-small.png?v=2",
+            "team": "tbl",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Rajeshwari Gayakwad",
+            "image": "https://scores.iplt20.com/ipl/playerimages/393-small.png?v=2",
+            "team": "tbl",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "Wicket-keeper"
+            ],
+            "name": "Richa Ghosh ",
+            "image": "https://scores.iplt20.com/ipl/playerimages/399-small.png?v=2",
+            "team": "tbl",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Priya Punia",
+            "image": "https://scores.iplt20.com/ipl/playerimages/1032-small.png?v=2",
+            "team": "sno",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "batsman"
+            ],
+            "name": "Chandu V",
+            "image": "https://scores.iplt20.com/ipl/playerimages/1026-small.png?v=2",
+            "team": "sno",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "bowler"
+            ],
+            "name": "Meghna Singh",
+            "image": "https://scores.iplt20.com/ipl/playerimages/886-small.png?v=2",
+            "team": "sno",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Deandra Dottin",
+            "image": "https://scores.iplt20.com/ipl/playerimages/913-small.png?v=2",
+            "team": "sno",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Harleen Deol",
+            "image": "https://scores.iplt20.com/ipl/playerimages/389-small.png?v=2",
+            "team": "sno",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Sune Luus",
+            "image": "https://scores.iplt20.com/ipl/playerimages/434-small.png?v=2",
+            "team": "sno",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Alana King",
+            "image": "https://scores.iplt20.com/ipl/playerimages/967-small.png?v=2",
+            "team": "sno",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Pooja Vastrakar",
+            "image": "https://scores.iplt20.com/ipl/playerimages/397-small.png?v=2",
+            "team": "sno",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "All-rounder"
+            ],
+            "name": "Sophie Ecclestone",
+            "image": "https://scores.iplt20.com/ipl/playerimages/406-small.png?v=2",
+            "team": "sno",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "Wicket-keeper"
+            ],
+            "name": "Harleen Deol",
+            "image": "https://scores.iplt20.com/ipl/playerimages/396-small.png?v=2",
+            "team": "sno",
+            "gender": "female"
+        },
+        {
+            "role": [
+                "Captain",
+                "batsman"
+            ],
+            "name": "Harmanpreet Kaur",
+            "image": "https://scores.iplt20.com/ipl/playerimages/387-small.png?v=2",
+            "team": "sno",
+            "gender": "female"
+        }
+    ]
+  }
+}
