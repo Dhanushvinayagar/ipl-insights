@@ -22,8 +22,9 @@ function Home() {
     useEffect(() => {
         const func = async(apiCall)=>{
             if(apiCall){
-                const response = await axios.get("https://www.mockachino.com/5db99bd2-28c5-46/ipl/table")
-                // const response = await axios.get("http://localhost:3000/table")
+                // const response = await axios.get("https://www.mockachino.com/5db99bd2-28c5-46/ipl/table")
+                const response = await axios.get("http://localhost:3000/table")
+                // npm i json server          then             json-server --watch db.json
                 const ipl = response.data
                 setData(ipl.points);
                 console.log("api called");

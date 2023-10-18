@@ -22,8 +22,8 @@ function Structure() {
     useEffect(()=>{
         const func= async(id) =>{
 
-            const response = await axios.get("https://www.mockachino.com/5db99bd2-28c5-46/ipl/list/players")
-            // const response = await axios.get(" http://localhost:3000/players")
+            // const response = await axios.get("https://www.mockachino.com/5db99bd2-28c5-46/ipl/list/players")
+            const response = await axios.get(" http://localhost:3000/players")
             const players = response.data.players
 
             const team = players.filter(el=>el.team==id)
