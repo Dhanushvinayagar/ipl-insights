@@ -8,11 +8,6 @@ import Notfound from './pages/Notfound'
 
 function App() {
 
-// 
-//   
-// 
-// https://www.mockachino.com/5db99bd2-28c5-46/ipl/list/players
-
   return (
     <>
 
